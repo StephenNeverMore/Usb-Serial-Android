@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFE4B5"
+        android:hint="receive data here"
+        android:lines="5"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/countView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="receive counts" 
+        android:textSize="25sp"
+        android:textColor="#ff0000"
+        android:background="#00f0ff"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/sendText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="u can type sth here"
+        android:textSize="25sp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONNECT" />
+
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DISCONNECT" />
+
+</LinearLayout>
